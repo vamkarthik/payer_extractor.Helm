@@ -65,7 +65,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: 20.72.220.113.nip.io
+    - host: 127.0.0.1.nip.io
       paths:
         - path: /
           pathType: Prefix
@@ -89,7 +89,7 @@ httpRoute:
     # namespace: default
   # Hostnames matching HTTP header.
   hostnames:
-  - 20.72.220.113.nip.io
+  - 127.0.0.1.nip.io
   # List of rules and filters applied.
   rules:
   - matches:
