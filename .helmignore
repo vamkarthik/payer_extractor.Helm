@@ -22,4 +22,4 @@
 *.tmproj
 .vscode/
 
-deployment.yaml
+# deployment.yaml
