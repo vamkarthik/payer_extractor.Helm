@@ -37,7 +37,7 @@ spec:
               service:
                 name: {{ include "payer_extractor.fullname" $ }}
                 port:
-                  number: {{ $.Values.service.port }}
+                  number: {{ $.Values.service.targetPort }}
           {{- end }}
     {{- end }}
 {{- end }}
