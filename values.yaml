@@ -68,7 +68,7 @@ ingress:
     - host: payer-extractor.20.72.220.113.nip.io
       paths:
         - path: /
-          pathType: ImplementationSpecific
+          pathType: Prefix
   tls: []
     # - secretName: chart-example-tls
     #   hosts:
